@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fca626b998f36445b3f122c9c246d94, type: 3}
+  m_Name: Task_Day10
+  m_EditorClassIdentifier: Assembly-CSharp::RupeeRanger.Data.TaskData
+  id: task_day_10
+  dayNumber: 10
+  chapterTitle: 'Chapter 2: Smart Saving & Banking'
+  objectiveText: '* Objective: Open Savings Account at Bank'
+  targetBuilding: 7
+  miniGameId: visit_bank
+  rewardAmount: 600
+  isEventDay: 0
+  description: Visit the National Bank in the north-east to manage deposits and understand
+    interest growth.
+  hintText: Head to the Bank in the north-east. Visiting completes today's task!

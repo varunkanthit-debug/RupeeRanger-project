@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fca626b998f36445b3f122c9c246d94, type: 3}
+  m_Name: Task_Day2
+  m_EditorClassIdentifier: Assembly-CSharp::RupeeRanger.Data.TaskData
+  id: task_day_2
+  dayNumber: 2
+  chapterTitle: 'Chapter 1: A New Month Begins'
+  objectiveText: '* Objective: Compare Prices at Shop'
+  targetBuilding: 2
+  miniGameId: visit_shop
+  rewardAmount: 450
+  isEventDay: 0
+  description: Visit the corner supermarket and practice comparing unit prices. Visiting
+    completes today's task!
+  hintText: Head south-west to the Shop. Visiting completes today's task!

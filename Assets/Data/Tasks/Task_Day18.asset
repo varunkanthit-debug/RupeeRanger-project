@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fca626b998f36445b3f122c9c246d94, type: 3}
+  m_Name: Task_Day18
+  m_EditorClassIdentifier: Assembly-CSharp::RupeeRanger.Data.TaskData
+  id: task_day_18
+  dayNumber: 18
+  chapterTitle: 'Chapter 3: Avoiding Debt Traps'
+  objectiveText: "\u25C6 Special Event: Lost Purse at Central Park!"
+  targetBuilding: 14
+  miniGameId: event_lost_purse
+  rewardAmount: 200
+  isEventDay: 1
+  description: You spotted a brown coin purse with keys on a park bench. Someone
+    might be searching for it! What will you do?
+  hintText: Make your choice with the lost purse to continue.

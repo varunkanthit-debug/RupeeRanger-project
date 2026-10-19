@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fca626b998f36445b3f122c9c246d94, type: 3}
+  m_Name: Task_Day22
+  m_EditorClassIdentifier: Assembly-CSharp::RupeeRanger.Data.TaskData
+  id: task_day_22
+  dayNumber: 22
+  chapterTitle: 'Chapter 22: Residence Maintenance'
+  objectiveText: "\u25C6 Special Event: Hostel TV Short-Circuit Repair"
+  targetBuilding: 6
+  miniGameId: event_hostel_repair
+  rewardAmount: 0
+  isEventDay: 1
+  description: A sudden electrical short-circuit in the student residence common
+    room requires shared contribution.
+  hintText: Pay your maintenance share in the event dialog.

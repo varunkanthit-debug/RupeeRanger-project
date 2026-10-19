@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fca626b998f36445b3f122c9c246d94, type: 3}
+  m_Name: Task_Day20
+  m_EditorClassIdentifier: Assembly-CSharp::RupeeRanger.Data.TaskData
+  id: task_day_20
+  dayNumber: 20
+  chapterTitle: 'Chapter 3: Avoiding Debt Traps'
+  objectiveText: '* Objective: Mindful Snacks at Bakery & Cafe'
+  targetBuilding: 15
+  miniGameId: visit_bakery
+  rewardAmount: 500
+  isEventDay: 0
+  description: Visit Sweet Crumbs Bakery & Cafe and learn to enjoy budget-friendly
+    treats without overspending!
+  hintText: Head east to Sweet Crumbs Bakery & Cafe on East Street.

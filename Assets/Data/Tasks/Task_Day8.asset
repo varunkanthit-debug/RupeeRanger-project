@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fca626b998f36445b3f122c9c246d94, type: 3}
+  m_Name: Task_Day8
+  m_EditorClassIdentifier: Assembly-CSharp::RupeeRanger.Data.TaskData
+  id: task_day_8
+  dayNumber: 8
+  chapterTitle: 'Chapter 2: Smart Saving & Banking'
+  objectiveText: '* Objective: Answer Financial Quiz at Library'
+  targetBuilding: 12
+  miniGameId: minigame_quiz_master
+  rewardAmount: 650
+  isEventDay: 0
+  description: Visit City Central Library and answer quiz questions on savings, needs
+    vs wants, and interest.
+  hintText: Head north-east to the Library to take the Financial Literacy Quiz!

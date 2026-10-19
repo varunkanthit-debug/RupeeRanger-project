@@ -1,0 +1,122 @@
+RupeeRanger
+Game Design Document
+A 30-Day Financial Survival Game for Ages 5 to 14  |  Built in Unity
+1. Overview
+RupeeRanger is a 30-day financial survival game for children aged 5 to 14, built in Unity. The player runs a student's monthly budget: choosing a lifestyle, splitting income across expenses, completing daily tasks, handling surprise events, and borrowing a loan if savings run out. At the end, the game gives a score and personal financial advice.
+Goal: teach children to budget, save, handle emergencies, and understand why loans are costly, through play.
+2. Game Flow
+#
+Screen
+What happens
+1
+Start screen
+Title, "30-Day Financial Survival Game", three info cards (Manage Money, Random Events, Win & Learn), Play Now button
+2
+Player Setup
+Name, age (5 to 14), lifestyle choice, character selection
+3
+Expense Setup
+Spend the monthly income on four needs, see initial savings
+4
+Town (main game)
+30 days of tasks, mini-games, random events, loans
+5
+Game Over
+Final score, summary, character reaction, financial advice
+
+3. Screen Details
+3.1 Start Screen
+Purple gradient background with floating coloured orbs, dice and money icons. A theme toggle sits at the top left.
+3.2 Player Setup
+Personal information: name and age fields.
+Lifestyle:
+Basic (frugal): ₹8,000/month
+Middle (comfortable): ₹15,000/month
+High (premium): ₹30,000/month
+Score is shown at the top.
+Character selection appears at the bottom after choosing a lifestyle. Only one character is unlocked at the start. The others are locked and unlock as the player earns more score.
+3.3 Expense Setup
+Shows the monthly income for the chosen lifestyle.
+Sliders for Rent, Food, Transport and Entertainment, each with its own maximum (for example ₹15,000, ₹8,000, ₹3,000, ₹5,000 in the Middle lifestyle).
+Live calculation: income minus total expenses equals initial savings (for example ₹15,000 − ₹6,500 = ₹8,500).
+The chosen character appears on the page and moves to a matching place as each slider is adjusted: one spot for rent, another for food, transport and entertainment.
+The score is shown below the savings.
+Start Simulation begins the 30 days.
+3.4 Town (Main Gameplay)
+A top-down pixel-art town with a home, college, shops, a bus stop, a hospital/clinic, and more. The player walks with WASD or arrow keys and presses E to interact with buildings and NPCs.
+HUD:
+Day counter (Day X / 30)
+Current money and debt
+Score
+Minimap
+Chapter title and Objective (for example "Go to College", "Go to Bus Stop", "Visit Hospital / Clinic")
+A direction guide pointing to the task location
+Transaction feed at the bottom, logging every income and expense
+Next Day [N] button
+Daily loop:
+The game gives the day's task (go to college, go to the shop, play the maths game, play the English game, meet a friend, and so on).
+The player walks to the location. Arriving opens the matching mini-game.
+On completing it, the game returns to the town, savings rise slightly, and Next Day becomes enabled.
+The player presses Next Day to continue.
+3.5 Mini-Games
+Each mini-game opens only when the character reaches the right place, and returns to the town once finished.
+Mini-game
+How it works
+1. Word Puzzle
+A letter grid with many English words. The player finds words and circles them. Completing one box returns to the game.
+2. Word Finder
+Three letters are shown with empty answer boxes. The player forms words and fills the boxes. Completing all puzzles returns to the game.
+3. Maths Game
+Two numbers with an arithmetic operation, with a timer, score and high score. The player types the answer. Completing one box returns to the game.
+4. Maths Puzzle
+A grid of sums with a number pad and a Go button. Completing one returns to the game.
+5. More games
+To be added (for example memory match, coin counting, shopping bill, needs vs wants), so tasks repeat across 30 days without feeling the same.
+
+3.6 Random Events
+Appear on certain days after a few days of play. No task is scheduled on event days.
+A pop-up shows the event and the player must make a decision.
+Emergencies (cost money): viral fever and clinic visit (₹1,200), cracked phone screen (₹2,000), hostel TV short-circuit repair, mandatory lab manual and kit fee, textbook purchase (₹500), expensive gift and party (₹1,000), friend visit, watch broken, hospital, college fee, book fee.
+Windfalls (give money): freelance poster design gig (+₹2,500), tutoring session bonus.
+Money for each event is paid from savings, which also raises or lowers the score depending on the choice.
+3.7 Loan System (the most important mechanic)
+When savings drop below ₹0, a Deficit Alert appears and the player must take an emergency student loan. The pop-up shows:
+Deficit to cover (example: ₹90)
+Approved cash relief (example: ₹2,000)
+Processing surcharge (example: ₹100)
+Monthly interest rate: 5%, compounding
+Total repayment debt (example: ₹2,200)
+Credit rating impact: −60 points
+After accepting, savings go up, the debt appears in the HUD, and the score falls (in the example, 802 to 742). The player then continues the task or event with the borrowed money. Bigger loans cost more points.
+3.8 Game Over Screen
+Message: "Congratulations [name]! You completed 30 days of financial survival."
+Final score: (Savings × 2) − (Loan × 1.5)
+Financial summary: total income, total expenses, final savings, total loan taken.
+Player info: name, lifestyle, monthly income, days played, number of random events.
+Events encountered: list with costs.
+AI financial advice, the most important section (for example "You can reduce your entertainment spending").
+Character reaction: a high score shows a happy character and a celebration pop-up; a low score shows a sad character.
+4. Scoring and Unlocks
+The score rises with completed tasks, good savings, and sensible choices.
+It falls with loans, overspending, and poor decisions.
+Total score across plays unlocks new characters.
+5. Advice System
+Reads the player's choices and gives specific tips, such as:
+Entertainment too high: reduce it.
+Savings too low: build an emergency fund.
+Loan taken: avoid borrowing and save for emergencies.
+No loan and good savings: "Good job! Keep maintaining your financial balance."
+Advice should be short and worded for children aged 5 to 14.
+6. Visual Style
+Dark purple UI with bright accents: green for money, red for expenses, gold for score.
+Rounded Poppins-style font.
+Pixel-art town with a blue-shirt character, roads, crossings, and street lamps.
+Light and dark theme toggle.
+7. Points to Fix or Confirm
+These were noticed in the screenshots and should be settled before building:
+Rupee symbol (₹): in the Town screens it shows as a box. The Unity font needs to include the ₹ character.
+Age range: the age box says "5-12", but the game is for ages 5 to 14.
+Starting money: Expense Setup shows ₹8,500 initial savings, but Day 1 in the Town shows ₹5,060. Decide how monthly expenses are deducted: daily, or on set days.
+Total income: the Game Over screen shows ₹450,000 for 30 days, but monthly income is ₹15,000. This looks like income × 30 and should probably be ₹15,000.
+Repeated events: "Phone screen broken" and "Party" each appear twice in the final list. Decide whether an event can repeat in one game or happens only once.
+Loan repayment: the debt stays at ₹2,200 on screen. Decide whether the player can repay it from later savings, and whether that affects the final score.

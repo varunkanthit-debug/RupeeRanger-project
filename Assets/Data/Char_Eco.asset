@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 310159c399b0084468938ecbdd41989c, type: 3}
+  m_Name: Char_Eco
+  m_EditorClassIdentifier: Assembly-CSharp::RupeeRanger.Data.CharacterData
+  id: eco
+  characterName: Eco Ranger
+  sprite: {fileID: 21300000, guid: 53c6e26dcba938a4a9450406372fd66f, type: 3}
+  unlockScore: 300
+  description: Green-minded explorer who saves on energy and bills!

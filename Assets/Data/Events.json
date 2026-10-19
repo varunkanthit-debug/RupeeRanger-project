@@ -1,0 +1,232 @@
+[
+  {
+    "id": "event_viral_fever",
+    "title": "Viral Fever & Clinic Visit",
+    "category": "Emergency",
+    "description": "A sudden viral fever hit you before mid-terms. Doctor consultation and prescriptions cost you money.",
+    "costOrIncome": -1200,
+    "lifestyleMultiplier": 1.0,
+    "isMandatory": true,
+    "hasChoices": false
+  },
+  {
+    "id": "event_phone_screen",
+    "title": "Cracked Phone Screen",
+    "category": "Emergency",
+    "description": "Your phone slipped from your study desk and shattered the display glass. Immediate repair is required for online lecture alerts.",
+    "costOrIncome": -2400,
+    "lifestyleMultiplier": 1.0,
+    "isMandatory": true,
+    "hasChoices": false
+  },
+  {
+    "id": "event_lab_fee",
+    "title": "Mandatory Lab Manual & Kit Fee",
+    "category": "Emergency",
+    "description": "Department lab practicals require purchasing the official experiment manual and safety component kit.",
+    "costOrIncome": -850,
+    "lifestyleMultiplier": 1.0,
+    "isMandatory": true,
+    "hasChoices": false
+  },
+  {
+    "id": "event_hostel_repair",
+    "title": "Hostel TV Short-Circuit Repair",
+    "category": "Emergency",
+    "description": "A sudden electrical short-circuit in the student residence common room requires shared contribution to fix wiring and fuses.",
+    "costOrIncome": -850,
+    "lifestyleMultiplier": 1.0,
+    "isMandatory": true,
+    "hasChoices": false
+  },
+  {
+    "id": "event_college_fee",
+    "title": "College Semester Activity Fee",
+    "category": "Emergency",
+    "description": "University portal exam registration and student union activity dues must be cleared before the semester deadline.",
+    "costOrIncome": -1500,
+    "lifestyleMultiplier": 1.0,
+    "isMandatory": true,
+    "hasChoices": false
+  },
+  {
+    "id": "event_book_fee",
+    "title": "Reference Library Book Fee",
+    "category": "Emergency",
+    "description": "Annual institutional library membership and reserve academic reference volumes fee is due for the term.",
+    "costOrIncome": -750,
+    "lifestyleMultiplier": 1.0,
+    "isMandatory": true,
+    "hasChoices": false
+  },
+  {
+    "id": "event_watch_broken",
+    "title": "Watch Broken & Strap Repair",
+    "category": "Emergency",
+    "description": "Your exam timer wristwatch broke during morning commute. Will you repair it or rely on the wall clocks?",
+    "costOrIncome": -450,
+    "lifestyleMultiplier": 1.0,
+    "isMandatory": false,
+    "hasChoices": true,
+    "choiceA": {
+      "choiceText": "Repair Watch at Jeweler",
+      "rupeeChange": -450,
+      "scoreChange": 20,
+      "feedbackMessage": "Punctual student! Watch repaired with a 6-month warranty.",
+      "buttonColor": { "r": 255, "g": 109, "b": 0, "a": 255 }
+    },
+    "choiceB": {
+      "choiceText": "Rely on Exam Hall Clocks",
+      "rupeeChange": 0,
+      "scoreChange": -10,
+      "feedbackMessage": "Saved Rs. 450, but hall clocks are sometimes hard to view from back benches.",
+      "buttonColor": { "r": 84, "g": 110, "b": 122, "a": 255 }
+    }
+  },
+  {
+    "id": "event_friend_visit",
+    "title": "Hometown Friends Visit",
+    "category": "Opportunity",
+    "description": "Childhood friends arrived in town for the weekend and invited you out to celebrate your reunion.",
+    "costOrIncome": -600,
+    "lifestyleMultiplier": 1.0,
+    "isMandatory": false,
+    "hasChoices": true,
+    "choiceA": {
+      "choiceText": "Host Dinner at Cafe (-Rs. 600)",
+      "rupeeChange": -600,
+      "scoreChange": 25,
+      "feedbackMessage": "Wonderful hospitality! Balanced social life builds strong lifelong friendships.",
+      "buttonColor": { "r": 2, "g": 136, "b": 209, "a": 255 }
+    },
+    "choiceB": {
+      "choiceText": "Cook Snacks at Home (-Rs. 150)",
+      "rupeeChange": -150,
+      "scoreChange": 40,
+      "feedbackMessage": "Fabulous budget hospitality! You saved Rs. 450 and made delicious homemade snacks!",
+      "buttonColor": { "r": 0, "g": 200, "b": 83, "a": 255 }
+    }
+  },
+  {
+    "id": "event_party",
+    "title": "Buy Expensive Gift & Attend Party",
+    "category": "Opportunity",
+    "description": "A close batchmate is throwing a major birthday and cultural fest celebration at the city plaza.",
+    "costOrIncome": -900,
+    "lifestyleMultiplier": 1.0,
+    "isMandatory": false,
+    "hasChoices": true,
+    "choiceA": {
+      "choiceText": "Buy Gift & Attend (-Rs. 900)",
+      "rupeeChange": -900,
+      "scoreChange": 20,
+      "feedbackMessage": "Great celebration! You shared a thoughtful gift and celebrated with friends.",
+      "buttonColor": { "r": 171, "g": 71, "b": 188, "a": 255 }
+    },
+    "choiceB": {
+      "choiceText": "Make Handmade Card & Attend (-Rs. 100)",
+      "rupeeChange": -100,
+      "scoreChange": 45,
+      "feedbackMessage": "Heartfelt creativity! Your handmade card was cherished more than shop-bought items!",
+      "buttonColor": { "r": 0, "g": 200, "b": 83, "a": 255 }
+    }
+  },
+  {
+    "id": "event_textbook",
+    "title": "Specialized Financial Accounting Textbook",
+    "category": "Emergency",
+    "description": "The professor designated an advanced accounting reference textbook as required reading for term tests.",
+    "costOrIncome": -650,
+    "lifestyleMultiplier": 1.0,
+    "isMandatory": false,
+    "hasChoices": true,
+    "choiceA": {
+      "choiceText": "Buy Brand New Edition (-Rs. 650)",
+      "rupeeChange": -650,
+      "scoreChange": 20,
+      "feedbackMessage": "Crisp new book with digital code access included.",
+      "buttonColor": { "r": 255, "g": 109, "b": 0, "a": 255 }
+    },
+    "choiceB": {
+      "choiceText": "Buy from Senior (-Rs. 250)",
+      "rupeeChange": -250,
+      "scoreChange": 45,
+      "feedbackMessage": "Savvy student saver! You saved Rs. 400 and received helpful study annotations!",
+      "buttonColor": { "r": 0, "g": 200, "b": 83, "a": 255 }
+    }
+  },
+  {
+    "id": "event_freelance_gig",
+    "title": "Freelance Poster Design Gig",
+    "category": "Windfall",
+    "description": "A local cafe owner hired you to design promotional flyers and festival social media banners over the weekend!",
+    "costOrIncome": 2500,
+    "lifestyleMultiplier": 1.0,
+    "isMandatory": true,
+    "hasChoices": false
+  },
+  {
+    "id": "event_tutoring_bonus",
+    "title": "Extra Tutoring Session Bonus",
+    "category": "Windfall",
+    "description": "You provided math and science coaching to junior school students, and grateful parents handed you a generous performance bonus!",
+    "costOrIncome": 1500,
+    "lifestyleMultiplier": 1.0,
+    "isMandatory": true,
+    "hasChoices": false
+  },
+  {
+    "id": "event_scrap_recycling",
+    "title": "Hostel Old Books & Scrap Recycling",
+    "category": "Windfall",
+    "description": "You cleared out semester scrap, packaging cartons, and old newspapers to the eco-recycling cart.",
+    "costOrIncome": 400,
+    "lifestyleMultiplier": 1.0,
+    "isMandatory": true,
+    "hasChoices": false
+  },
+  {
+    "id": "event_honesty_reward",
+    "title": "Lost Wallet Returned at Central Library",
+    "category": "Windfall",
+    "description": "You discovered a professor's lost wallet near the library entrance and promptly handed it to security. They rewarded your honesty!",
+    "costOrIncome": 800,
+    "lifestyleMultiplier": 1.0,
+    "isMandatory": true,
+    "hasChoices": false
+  },
+  {
+    "id": "event_grandpa_gift",
+    "title": "Birthday Cash Gift from Grandpa",
+    "category": "Windfall",
+    "description": "Your grandfather came to visit your student accommodation and surprised you with a celebration gift!",
+    "costOrIncome": 2000,
+    "lifestyleMultiplier": 1.0,
+    "isMandatory": true,
+    "hasChoices": false
+  },
+  {
+    "id": "event_bicycle_puncture",
+    "title": "Bicycle Tire Puncture & Tune-Up",
+    "category": "Emergency",
+    "description": "A nail on Central Avenue flattened your bicycle tire right on your way to afternoon class.",
+    "costOrIncome": -200,
+    "lifestyleMultiplier": 1.0,
+    "isMandatory": false,
+    "hasChoices": true,
+    "choiceA": {
+      "choiceText": "Repair at Cycle Shop (-Rs. 200)",
+      "rupeeChange": -200,
+      "scoreChange": 20,
+      "feedbackMessage": "Immediate repair and brakes tightened for road safety.",
+      "buttonColor": { "r": 255, "g": 109, "b": 0, "a": 255 }
+    },
+    "choiceB": {
+      "choiceText": "DIY Patch with Puncture Kit (-Rs. 40)",
+      "rupeeChange": -40,
+      "scoreChange": 35,
+      "feedbackMessage": "Resourceful mechanic! You patched the tube yourself and saved Rs. 160!",
+      "buttonColor": { "r": 0, "g": 200, "b": 83, "a": 255 }
+    }
+  }
+]

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fca626b998f36445b3f122c9c246d94, type: 3}
+  m_Name: Task_Day9
+  m_EditorClassIdentifier: Assembly-CSharp::RupeeRanger.Data.TaskData
+  id: task_day_9
+  dayNumber: 9
+  chapterTitle: 'Chapter 2: Smart Saving & Banking'
+  objectiveText: "\u25C6 Special Event: Bicycle Flat Tire!"
+  targetBuilding: 11
+  miniGameId: event_bicycle_puncture
+  rewardAmount: 200
+  isEventDay: 1
+  description: Oh no! Your bicycle tire has a puncture on your way back from school.
+    Choose how to handle this unexpected cost.
+  hintText: Choose how to solve your bicycle flat tire to continue.

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fca626b998f36445b3f122c9c246d94, type: 3}
+  m_Name: Task_Day11
+  m_EditorClassIdentifier: Assembly-CSharp::RupeeRanger.Data.TaskData
+  id: task_day_11
+  dayNumber: 11
+  chapterTitle: 'Chapter 2: Smart Saving & Banking'
+  objectiveText: '* Objective: Word Finder Vocabulary Quest'
+  targetBuilding: 9
+  miniGameId: minigame_word_finder
+  rewardAmount: 600
+  isEventDay: 0
+  description: Discover all vocabulary words from the letter wheel to earn savings
+    bonuses and boost score!
+  hintText: Head south-west to Word Finder House to play today's word puzzle challenge.

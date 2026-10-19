@@ -1,0 +1,238 @@
+{
+  "wordSearchPuzzles": [
+    {
+      "difficulty": "Easy",
+      "category": "Rupee Savings",
+      "gridSize": 8,
+      "words": ["COIN", "CASH", "SAVE", "BANK", "BUY"]
+    },
+    {
+      "difficulty": "Easy",
+      "category": "Pocket Money",
+      "gridSize": 8,
+      "words": ["RUPEE", "NOTE", "SAFE", "COST", "FUND"]
+    },
+    {
+      "difficulty": "Easy",
+      "category": "School Life",
+      "gridSize": 8,
+      "words": ["BOOK", "DESK", "MATH", "PEN", "NOTE"]
+    },
+    {
+      "difficulty": "Easy",
+      "category": "Fruits Market",
+      "gridSize": 8,
+      "words": ["APPLE", "MANGO", "BERRY", "PEAR", "PLUM"]
+    },
+    {
+      "difficulty": "Easy",
+      "category": "Friendly Pets",
+      "gridSize": 8,
+      "words": ["FISH", "BEAR", "CROW", "PONY", "PUPPY"]
+    },
+    {
+      "difficulty": "Easy",
+      "category": "Home Sweet Home",
+      "gridSize": 8,
+      "words": ["ROOM", "DOOR", "ROOF", "YARD", "LAMP"]
+    },
+    {
+      "difficulty": "Medium",
+      "category": "Financial Town",
+      "gridSize": 10,
+      "words": ["MONEY", "RUPEE", "PRICE", "SPEND", "STORE", "SMART"]
+    },
+    {
+      "difficulty": "Medium",
+      "category": "Banking Basics",
+      "gridSize": 10,
+      "words": ["DEPOSIT", "CHEQUE", "VAULT", "ASSET", "CREDIT", "AUDIT"]
+    },
+    {
+      "difficulty": "Medium",
+      "category": "Smart Shopping",
+      "gridSize": 10,
+      "words": ["MARKET", "BARGAIN", "CART", "RECEIPT", "COUPON", "VALUE"]
+    },
+    {
+      "difficulty": "Medium",
+      "category": "Healthy Living",
+      "gridSize": 10,
+      "words": ["FRUITS", "WATER", "SLEEP", "RUNNING", "DENTAL", "CLINIC"]
+    },
+    {
+      "difficulty": "Medium",
+      "category": "Nature & Earth",
+      "gridSize": 10,
+      "words": ["FOREST", "RIVER", "OCEAN", "MOUNT", "VALLEY", "ISLAND"]
+    },
+    {
+      "difficulty": "Medium",
+      "category": "Tech & Digital",
+      "gridSize": 10,
+      "words": ["ROBOT", "CODING", "SCREEN", "DIGITAL", "SYSTEM", "SIGNAL"]
+    },
+    {
+      "difficulty": "Hard",
+      "category": "Financial Literacy",
+      "gridSize": 12,
+      "words": ["BUDGET", "PROFIT", "CREDIT", "INVEST", "WALLET", "BALANCE", "ACCOUNT"]
+    },
+    {
+      "difficulty": "Hard",
+      "category": "Wealth & Economy",
+      "gridSize": 12,
+      "words": ["CURRENCY", "CAPITAL", "DIVIDEND", "INTEREST", "COMPOUND", "PORTFOLIO", "STOCKS"]
+    },
+    {
+      "difficulty": "Hard",
+      "category": "Career & Success",
+      "gridSize": 12,
+      "words": ["DEGREE", "COLLEGE", "SALARY", "MANAGER", "PROJECT", "VENTURE", "FOUNDER"]
+    },
+    {
+      "difficulty": "Hard",
+      "category": "Kingdom Wildlife",
+      "gridSize": 12,
+      "words": ["CHEETAH", "OSTRICH", "DOLPHIN", "PANTHER", "FALCON", "GIRAFFE", "LEOPARD"]
+    },
+    {
+      "difficulty": "Hard",
+      "category": "Modern Banking",
+      "gridSize": 12,
+      "words": ["SECURITY", "TRANSFER", "EXCHANGE", "MORTGAGE", "TREASURY", "LEDGER", "INFLATION"]
+    }
+  ],
+  "wordFinderPuzzles": [
+    {
+      "difficulty": "Easy",
+      "letters": ["R", "A", "W"],
+      "targetWords": ["RAW", "WAR"]
+    },
+    {
+      "difficulty": "Easy",
+      "letters": ["T", "E", "A"],
+      "targetWords": ["TEA", "EAT", "ATE"]
+    },
+    {
+      "difficulty": "Easy",
+      "letters": ["C", "A", "T"],
+      "targetWords": ["CAT", "ACT"]
+    },
+    {
+      "difficulty": "Easy",
+      "letters": ["P", "O", "T"],
+      "targetWords": ["POT", "TOP"]
+    },
+    {
+      "difficulty": "Easy",
+      "letters": ["B", "A", "T"],
+      "targetWords": ["BAT", "TAB"]
+    },
+    {
+      "difficulty": "Easy",
+      "letters": ["T", "A", "P"],
+      "targetWords": ["TAP", "PAT", "APT"]
+    },
+    {
+      "difficulty": "Easy",
+      "letters": ["N", "E", "T"],
+      "targetWords": ["NET", "TEN"]
+    },
+    {
+      "difficulty": "Easy",
+      "letters": ["P", "I", "N"],
+      "targetWords": ["PIN", "NIP"]
+    },
+    {
+      "difficulty": "Medium",
+      "letters": ["S", "T", "A", "R"],
+      "targetWords": ["STAR", "RATS", "ARTS", "TARS"]
+    },
+    {
+      "difficulty": "Medium",
+      "letters": ["S", "P", "O", "T"],
+      "targetWords": ["SPOT", "STOP", "POTS", "TOPS", "POST"]
+    },
+    {
+      "difficulty": "Medium",
+      "letters": ["S", "A", "V", "E"],
+      "targetWords": ["SAVE", "VASE"]
+    },
+    {
+      "difficulty": "Medium",
+      "letters": ["C", "O", "I", "N"],
+      "targetWords": ["COIN", "ICON"]
+    },
+    {
+      "difficulty": "Medium",
+      "letters": ["E", "A", "R", "N"],
+      "targetWords": ["EARN", "NEAR"]
+    },
+    {
+      "difficulty": "Medium",
+      "letters": ["C", "A", "R", "E"],
+      "targetWords": ["CARE", "RACE", "ACRE"]
+    },
+    {
+      "difficulty": "Medium",
+      "letters": ["T", "E", "A", "M"],
+      "targetWords": ["TEAM", "MATE", "MEAT", "TAME"]
+    },
+    {
+      "difficulty": "Medium",
+      "letters": ["P", "A", "R", "T"],
+      "targetWords": ["PART", "TRAP", "TARP", "RAPT"]
+    },
+    {
+      "difficulty": "Medium",
+      "letters": ["L", "I", "V", "E"],
+      "targetWords": ["LIVE", "EVIL", "VEIL", "VILE"]
+    },
+    {
+      "difficulty": "Medium",
+      "letters": ["D", "E", "A", "R"],
+      "targetWords": ["DEAR", "DARE", "READ"]
+    },
+    {
+      "difficulty": "Hard",
+      "letters": ["S", "M", "A", "R", "T"],
+      "targetWords": ["SMART", "MART", "STAR", "ARMS", "TRAMS"]
+    },
+    {
+      "difficulty": "Hard",
+      "letters": ["S", "H", "A", "R", "E"],
+      "targetWords": ["SHARE", "HEARS", "HARE", "EARS", "HEAR"]
+    },
+    {
+      "difficulty": "Hard",
+      "letters": ["P", "R", "I", "C", "E"],
+      "targetWords": ["PRICE", "RIPE", "PIER", "RICE"]
+    },
+    {
+      "difficulty": "Hard",
+      "letters": ["A", "S", "S", "E", "T"],
+      "targetWords": ["ASSET", "SEAT", "EAST", "SETS"]
+    },
+    {
+      "difficulty": "Hard",
+      "letters": ["E", "A", "R", "T", "H"],
+      "targetWords": ["EARTH", "HEART", "HATER", "RATE", "HEAR", "TEAR"]
+    },
+    {
+      "difficulty": "Hard",
+      "letters": ["S", "T", "O", "R", "E"],
+      "targetWords": ["STORE", "REST", "SORE", "TORE", "ROSE"]
+    },
+    {
+      "difficulty": "Hard",
+      "letters": ["T", "R", "A", "I", "N"],
+      "targetWords": ["TRAIN", "RAIN", "ANTI", "RANT"]
+    },
+    {
+      "difficulty": "Hard",
+      "letters": ["P", "O", "W", "E", "R"],
+      "targetWords": ["POWER", "ROPE", "PORE", "WORE"]
+    }
+  ]
+}

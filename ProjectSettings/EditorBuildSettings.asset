@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Splash.unity
+    guid: be99f6922900a204ea765662b7ca5003
+  - enabled: 1
+    path: Assets/Scenes/PlayerSetup.unity
+    guid: b8a800d99789f1c4e8337dd1eae3d121
+  - enabled: 1
+    path: Assets/Scenes/ExpenseSetup.unity
+    guid: eb78b0e6026eba7429771ed342949b01
+  - enabled: 1
+    path: Assets/Scenes/Town.unity
+    guid: afdbf4c1a1705f842941a60003d2a956
+  - enabled: 1
+    path: Assets/Scenes/Result.unity
+    guid: 9662989b89c6b3244bf81a2371b5a06a
+  - enabled: 1
+    path: Assets/Scenes/MiniGame_WordSearch.unity
+    guid: 4f68b597a4b45e242a0d929077fbd915
+  - enabled: 1
+    path: Assets/Scenes/MiniGame_WordFinder.unity
+    guid: 005aa90b574015945b7571de86520d4e
+  - enabled: 1
+    path: Assets/Scenes/MiniGame_MathSpeed.unity
+    guid: 1ca0d374a57e04d43a0ed30fed281e3c
+  - enabled: 1
+    path: Assets/Scenes/MiniGame_MathPuzzle.unity
+    guid: eeb307be22a34014ea87088550656730
+  - enabled: 1
+    path: Assets/Scenes/MiniGame_MemoryMatch.unity
+    guid: db0b80692d7b64f45b94b00ddf3c77ab
+  - enabled: 1
+    path: Assets/Scenes/MiniGame_QuizMaster.unity
+    guid: 79b14f2f3379c5f458302d84a2e34b72
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 310159c399b0084468938ecbdd41989c, type: 3}
+  m_Name: Char_Penny
+  m_EditorClassIdentifier: Assembly-CSharp::RupeeRanger.Data.CharacterData
+  id: penny
+  characterName: Penny Ranger
+  sprite: {fileID: 21300000, guid: 452b66b457a12384982e2f069ad458be, type: 3}
+  unlockScore: 0
+  description: Smart, cheerful, and always ready to save rupees!

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39ae8ebd9da2c0747b6051740adc122c, type: 3}
+  m_Name: Lifestyle_Basic
+  m_EditorClassIdentifier: Assembly-CSharp::RupeeRanger.Data.LifestyleConfig
+  lifestyleType: 0
+  displayName: Basic Lifestyle
+  subtitle: Frugal living
+  monthlyIncome: 8000
+  maxRent: 8000
+  maxFood: 4000
+  maxTransport: 1500
+  maxEntertainment: 2500
+  icon: {fileID: 21300000, guid: 78938f1b0edbb0044bec2e005b9f4216, type: 3}
+  themeColor: {r: 0.11764706, g: 0.53333336, b: 0.8980392, a: 1}

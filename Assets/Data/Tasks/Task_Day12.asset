@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fca626b998f36445b3f122c9c246d94, type: 3}
+  m_Name: Task_Day12
+  m_EditorClassIdentifier: Assembly-CSharp::RupeeRanger.Data.TaskData
+  id: task_day_12
+  dayNumber: 12
+  chapterTitle: 'Chapter 12: Seasonal Viral Fever'
+  objectiveText: "\u25C6 Special Event: Viral Fever & Clinic Visit"
+  targetBuilding: 13
+  miniGameId: event_viral_fever
+  rewardAmount: 0
+  isEventDay: 1
+  description: A sudden viral fever hit you before mid-terms. Doctor consultation
+    and prescriptions cost you money.
+  hintText: Pay clinic consultation and medication in the event dialog.

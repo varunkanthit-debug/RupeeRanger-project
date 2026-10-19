@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fca626b998f36445b3f122c9c246d94, type: 3}
+  m_Name: Task_Day17
+  m_EditorClassIdentifier: Assembly-CSharp::RupeeRanger.Data.TaskData
+  id: task_day_17
+  dayNumber: 17
+  chapterTitle: 'Chapter 3: Avoiding Debt Traps'
+  objectiveText: '* Objective: Play Word Finder Challenge'
+  targetBuilding: 9
+  miniGameId: minigame_word_finder
+  rewardAmount: 600
+  isEventDay: 0
+  description: Connect letters on the wheel at Word Finder House to discover vocabulary
+    words and complete today's task.
+  hintText: Head to Word Finder House in the south-west to play and complete today's
+    task.

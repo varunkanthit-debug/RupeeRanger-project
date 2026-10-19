@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fca626b998f36445b3f122c9c246d94, type: 3}
+  m_Name: Task_Day23
+  m_EditorClassIdentifier: Assembly-CSharp::RupeeRanger.Data.TaskData
+  id: task_day_23
+  dayNumber: 23
+  chapterTitle: 'Chapter 4: Growing Your Wealth'
+  objectiveText: "\u25C6 Special Event: Sudden Monsoon Shower!"
+  targetBuilding: 9
+  miniGameId: event_monsoon_rain
+  rewardAmount: 200
+  isEventDay: 1
+  description: Dark rain clouds burst and heavy monsoon rain pours down outside the
+    Town Bakery! Choose how to handle it.
+  hintText: Make your choice in the Monsoon Rain Event to continue.
